@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Repositories</title>
+    <!-- link to style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link to normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- add awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- change tab img -->
+    <link rel="icon" href="./github-brands.svg">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Github <span class="icon"><i class="fa-brands fa-github"></i></span></h1>
+        <div class="enterDataSection" id="enterData">
+            <div id="eror">
+                eror
+            </div>
+            <input name="user" type="text" placeholder="Enter username">
+            <label for="user"><button class="getBtn">get repos!</button></label>
+        </div>
+        <div class="result" id="result">
+            No data to show...
+        </div>
+    </div>
+    <footer>
+        Made By <span><a href="https://github.com/MaroMohamedSalah">maroMohamedSalah</a></span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
